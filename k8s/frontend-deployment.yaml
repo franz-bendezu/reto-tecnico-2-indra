@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:latest
+        ## change the image to the frontend image of registry
+        image: franzant/frontend:latest
         ports:
         - containerPort: 3000
         resources:

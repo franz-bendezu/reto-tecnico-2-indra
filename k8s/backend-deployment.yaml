@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: backend:latest
+        ## change the image to the backend image of registry
+        image: franzant/backend:latest
         ports:
         - containerPort: 4000
         resources:
